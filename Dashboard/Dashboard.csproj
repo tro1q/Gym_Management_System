@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Coach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Coach.Designer.cs">
+      <DependentUpon>Coach.cs</DependentUpon>
+    </Compile>
     <Compile Include="Receptionist.cs">
       <SubType>Form</SubType>
     </Compile>
